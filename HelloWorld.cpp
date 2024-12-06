@@ -1,16 +1,14 @@
 ﻿#include <iostream>
+#include <string> 
 using namespace std;
 
-int x = 0;
-
-void print() {
-    cout << "Hello, World!" << endl;
-}
-
 int main() {
-    for (int i = 0; i < 1; i++) {
-        x++;
-    }
-    print();
+    string name;
+
+    cout << "Введите ваше имя: ";
+    cin >> name;
+
+    cout << "Hello world from " << name << endl;
     return 0;
 }
+
